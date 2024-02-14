@@ -3,16 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-pdf/renderer": "^3.3.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "date-fns": "^3.3.1",
+    "rc-slider": "^10.5.0",
     "react": "^18.2.0",
+    "react-datepicker": "^6.1.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
+    "react-textarea-autosize": "^8.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3006 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +39,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/node": "^20.11.17",
+    "@types/rc-slider": "^9.3.1",
+    "@types/react": "^18.2.55",
+    "@types/react-datepicker": "^6.0.0",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-textarea-autosize": "^8.0.0",
+    "gh-pages": "^6.1.1",
+    "node-sass": "^9.0.0",
+    "typescript": "^5.3.3"
   }
 }
