@@ -1,9 +1,9 @@
-import { CSSClasses } from '../data/types'
+import { CSSClasses } from '../data/types';
 
-const colorDark = '#222'
-const colorDark2 = '#666'
-const colorGray = '#e3e3e3'
-const colorWhite = '#fff'
+const colorDark = '#222';
+const colorDark2 = '#666';
+const colorGray = '#e3e3e3';
+const colorWhite = '#fff';
 
 const styles: CSSClasses = {
   dark: {
@@ -77,6 +77,9 @@ const styles: CSSClasses = {
     borderBottom: `1px solid ${colorGray}`,
   },
 
+  rowTop: {
+    borderTop: `1px solid ${colorGray}`,
+  },
   'mt-40': {
     marginTop: '40px',
   },
@@ -138,7 +141,7 @@ const styles: CSSClasses = {
 
   logo: {
     display: 'block',
-  }
-}
+  },
+};
 
-export default styles
+export default styles;

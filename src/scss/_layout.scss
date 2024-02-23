@@ -50,7 +50,10 @@
   position: relative;
   border-bottom: 1px solid $color-gray;
 }
-
+.rowTop{
+  position: relative;
+  border-top: 1px solid $color-gray;
+}
 .row__remove {
   display: flex;
   padding: 0;
